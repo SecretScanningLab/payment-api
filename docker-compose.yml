@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  app:
+    image: payment-api
+
+    environment:
+      DB_PASSWORD: dockerpassword123
+      AWS_SECRET_ACCESS_KEY: fakeawsdockersecret
